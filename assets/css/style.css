@@ -1,12 +1,12 @@
 body{
-    background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0218.jpg?raw=true");
-    background-size: inherit;
+    background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/Planet-Space-Stars-Desktop-Background.jpg?raw=true");
+    background-size: cover;
     
 }
 
 
 
-#tarot1{
+.tarot1{
     background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0213.jpg?raw=true");
     width: 400px;
     height: 600px;
@@ -17,7 +17,7 @@ body{
     margin: 20px;
 }
 
-#tarot2{
+.tarot2{
     background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0214.jpg?raw=true");
     width: 400px;
     height: 600px;
@@ -28,7 +28,7 @@ body{
     margin: 20px;
 }
 
-#tarot3{
+.tarot3{
     background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0215.jpg?raw=true");
     width: 400px;
     height: 600px;
@@ -39,7 +39,7 @@ body{
     margin: 20px;
 }
 
-#tarot4{
+.tarot4{
     background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0216.jpg?raw=true");
     width: 400px;
     height: 600px;
@@ -49,4 +49,8 @@ body{
     overflow: hidden;
     margin: 20px;
 
+}
+
+#score{
+    color: white;
 }
