@@ -2,6 +2,7 @@ body{
     background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/Planet-Space-Stars-Desktop-Background.jpg?raw=true");
     color: white;
     font-family: 'Monoton', cursive;
+    background-size: cover;
 }
 
 
@@ -9,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    
     
 
 

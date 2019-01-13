@@ -32,10 +32,11 @@ function randomNumberFromRange(min, max) {
 $randomNumber = randomNumberFromRange(minNumber, maxNumber);
 
 $("#score").text($randomNumber);
+// reset the value
 previousResult = 0;
 
 $(".crystals").empty();
-
+// assigning images
 var images = [
     'https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0213.jpg?raw=true',
     'https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0214.jpg?raw=true',
@@ -63,6 +64,7 @@ for (var i = 0; i < 4; i++) {
     $(".crystals").append(crystal);
 }
 }
+// runs the game once the document loads
 startGame();
 
 
@@ -75,7 +77,7 @@ $(document).on('click', ".crystal", function() {
     var num = parseInt($(this).attr('data-random'));
 
     previousResult += num;
-
+// making sure variables where assigned properly
    console.log(previousResult);
 
    score = previousResult + $randomNumber
@@ -85,7 +87,7 @@ $(document).on('click', ".crystal", function() {
    $("#current-score").text(score);
 
     
-      
+    // score change
     if ( parseInt(score) > 120) {
         alert("you lost!!");
         loses++;
