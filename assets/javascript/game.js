@@ -74,20 +74,21 @@ function applyScore(){
     if( gameRunning = true){
      
 
-    $("#score").text(startNumber);
+    
 
 
-    if ( startNumber = 120){
+    if ( $randomNumber = 120 ){
         alert.text("You win!");
         wins++;
         gameRunning = false
     }
-    if ( startNumber > 120) {
+    if ( $randomNumber > 120) {
         alert.text("You Lose!");
         loses++;
         gameRunning = false
     }
    } 
+   $("#score").text($randomNumber);
 }
 
 

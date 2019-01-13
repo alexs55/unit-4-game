@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0218.jpg?raw=true");
+    background-size: inherit;
+    
+}
+
+
+
+#tarot1{
+    background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0213.jpg?raw=true");
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 20px;
+}
+
+#tarot2{
+    background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0214.jpg?raw=true");
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 20px;
+}
+
+#tarot3{
+    background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0215.jpg?raw=true");
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 20px;
+}
+
+#tarot4{
+    background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0216.jpg?raw=true");
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 20px;
+
+}
