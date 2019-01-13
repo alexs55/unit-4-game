@@ -1,56 +1,52 @@
 body{
     background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/Planet-Space-Stars-Desktop-Background.jpg?raw=true");
-    background-size: cover;
+    color: white;
+    font-family: 'Monoton', cursive;
+}
+
+
+.crystals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    
+
+
+
+}
+
+.crystal{
+    border: 1px solid white;
+    height: 400px;
+    width: 215px;
+    border-radius: 2px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s, transform 2s;
+}
+
+.crystal:hover{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transform: translate(5px,45px);
+    transition: box-shadow 1s, transform 2s;
     
 }
 
 
-
-.tarot1{
-    background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0213.jpg?raw=true");
-    width: 400px;
-    height: 600px;
-    background-size: cover;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 20px;
-}
-
-.tarot2{
-    background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0214.jpg?raw=true");
-    width: 400px;
-    height: 600px;
-    background-size: cover;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 20px;
-}
-
-.tarot3{
-    background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0215.jpg?raw=true");
-    width: 400px;
-    height: 600px;
-    background-size: cover;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 20px;
-}
-
-.tarot4{
-    background-image: url("https://github.com/alexs55/unit-4-game/blob/master/assets/images/IMG_0216.jpg?raw=true");
-    width: 400px;
-    height: 600px;
-    background-size: cover;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 20px;
-
-}
-
 #score{
+    color: white;
+}
+
+#wins{
+    color: white;
+}
+
+#loses{
+    color: white;
+}
+
+#current-score{
     color: white;
 }
