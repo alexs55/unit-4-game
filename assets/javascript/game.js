@@ -78,28 +78,29 @@ $(document).on('click', ".crystal", function() {
 
     previousResult += num;
 // making sure variables where assigned properly
-   console.log(previousResult);
+//    console.log(previousResult);
 
-   score = previousResult + $randomNumber
+//    score = previousResult + $randomNumber testing for a specific number
 
-   console.log(score)
+//    console.log(score)
 
-   $("#current-score").text(score);
+   $("#current-score").text(previousResult);
 
     
     // score change
-    if ( parseInt(score) > 120) {
+    var score = parseInt($randomNumber)
+
+    if(previousResult > score){
         alert("you lost!!");
         loses++;
-        startGame();
         $("#loses").text(loses);
-       
+        startGame();
         
        
 
     }
 
-    else if ( parseInt(score) === 120) {
+    else if(previousResult === score){
         alert("you win!!");
         wins++;
         $("#wins").text(wins);
